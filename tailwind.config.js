@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header-image': "url('/src/assets/keith-misner-h0Vxgz5tyXA-unsplash.jpg')",
-        'birch-floor': "url('/src/assets/markus-spiske-3tbtq3oCQ1s-unsplash.jpg')"
+        'headerImage': "url('/src/assets/keith-misner-h0Vxgz5tyXA-unsplash.jpg')",
+        'birchFloor': "url('/src/assets/markus-spiske-3tbtq3oCQ1s-unsplash.jpg')"
       }
     },
   },

@@ -3,7 +3,7 @@ import { Header } from '../components/Header'
 
 export const Home = () => {
   return (
-    <header className="w-full">
+    <header className="w-100">
       <Header />
     </header>
   )
