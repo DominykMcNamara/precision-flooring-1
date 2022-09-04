@@ -12,7 +12,7 @@ export const Header = () => {
           <span className="text-5xl text-stone-200">Mark Gagne's</span>{" "}
           Precision Flooring
         </h1>
-        <h2 className="w-[56.5rem] text-stone-200 text-3xl mx-auto mt-10 leading-10 font-regular">
+        <h2 className="w-[70.5rem] text-stone-200 text-3xl mx-auto mt-10 leading-10 font-regular">
           Since 1998 Precision Flooring has provided commercial flooring sales
           and services to meet the desires of their customers with a customer
           satisfaction gurantee.
