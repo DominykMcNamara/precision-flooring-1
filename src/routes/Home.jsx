@@ -1,4 +1,5 @@
 import React from "react";
+import { ContactForm } from "../components/ContactForm";
 import { Header } from "../components/Header";
 import { Services } from "../components/Services";
 
@@ -10,6 +11,9 @@ export const Home = () => {
       </header>
       <section>
         <Services />
+      </section>
+      <section>
+        <ContactForm />
       </section>
     </>
   );
