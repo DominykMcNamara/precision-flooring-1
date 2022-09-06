@@ -7,7 +7,7 @@ import { Services } from "../components/Services";
 export const Home = () => {
   return (
     <>
-      <header className="w-100">
+      <header className="w-screen">
         <Header />
       </header>
       <section>

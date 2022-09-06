@@ -3,7 +3,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <div className="w-screen">
-      <div className="mx-auto flex flex-row justify-between align-center w-1/2 desktop:w-3/4  laptop:w-3/4  tablet:w-screen mobile:w-screen mt-10 pb-10">
+      <div className="mx-auto flex desktop:flex-row mobile:flex-col justify-between mobile:pl-10 align-center w-1/2 desktop:w-3/4  laptop:w-3/4  tablet:w-screen mobile:w-screen mt-10 pb-10">
         <div className="flex flex-row align-center">
           <i className="fa-sharp fa-solid fa-phone text-orange-600"></i>
           <h3 className="ml-2 text-stone-200">(207)-703-2990</h3>
