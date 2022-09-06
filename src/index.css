@@ -8,5 +8,6 @@
     width: 100vh;
     background-color: #292524;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
   }
 }

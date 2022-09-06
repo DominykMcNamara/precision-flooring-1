@@ -3,7 +3,7 @@ import React from "react";
 export const ContactForm = () => {
   return (
     <div className="w-screen mt-10 ">
-      <form className="flex bg-stone-600 flex-col mx-auto text-3xl  desktop:w-3/4  laptop:w-3/4  tablet:w-screen mobile:w-screen p-10 rounded">
+      <form id="contact" className="flex bg-stone-600 flex-col mx-auto text-3xl  desktop:w-3/4  laptop:w-3/4  tablet:w-screen mobile:w-screen p-10 rounded">
         <h1 className="text-center desktop:text-5xl mobile:text-2xl text-orange-600">
           Contact
         </h1>
@@ -30,7 +30,7 @@ export const ContactForm = () => {
             required
           />
         </label>
-        <button className="bg-orange-500 mx-auto text-stone-300 desktop:w-96 mobile:w- mt-6 p-1 text-2xl mobile:text-xl rounded">
+        <button className="bg-orange-500 mx-auto text-stone-300 desktop:w-96 mobile:w- mt-6 p-1 text-2xl mobile:text-xl rounded opacity-75 hover:opacity-100">
           SUBMIT
         </button>
       </form>
