@@ -10,11 +10,15 @@ export const Footer = () => {
         </div>
         <div className="flex flex-row align-center">
           <i className="fa-sharp fa-solid fa-clock text-orange-600"></i>
-          <h3 className="ml-2 text-stone-200">Mon - Sat 7AM - 5PM || Sun - Closed</h3>
+          <h3 className="ml-2 text-stone-200">
+            Mon - Sat 7AM - 5PM || Sun - Closed
+          </h3>
         </div>
         <div className="flex flex-row align-center">
           <i className="fa-solid fa-location-pin text-orange-600"></i>
-          <h3 className="ml-2 text-stone-200">398 Dow Hwy Unit 44, Eliot, ME 03903</h3>{" "}
+          <h3 className="ml-2 text-stone-200">
+            398 Dow Hwy Unit 44, Eliot, ME 03903
+          </h3>{" "}
         </div>
       </div>
     </div>
