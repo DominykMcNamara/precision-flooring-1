@@ -4,7 +4,7 @@ import BirchFloor from "../assets/markus-spiske-3tbtq3oCQ1s-unsplash.jpg";
 export const Services = () => {
   return (
     <div className="w-screen">
-    <div className=" w-1/2 desktop:w-3/4 bg-stone-600 mx-auto flex flex-row justify-center align-center flex-row p-10 desktop:p-15 mt-20 rounded">
+    <div className=" w-1/2 desktop:w-3/4 laptop:w-3/4 tablet:w-screen mobile:w-screen bg-stone-600 mx-auto flex flex-row justify-center align-center flex-row p-10 desktop:p-15 mt-20 rounded">
       <img
         src={BirchFloor}
         alt="Birchwood Floor"

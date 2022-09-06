@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div className="bg-headerImage w-screen pt-36 pb-36">
+    <div className="bg-headerImage w-screen mobile:w-screen pt-36 pb-36">
       <div className="flex flex-row text-stone-200 justify-end align-center text-3xl">
         <p className="mr-20">Contact</p>
         <p className="mr-20">Services</p>

@@ -3,7 +3,7 @@ import React from "react";
 export const ContactForm = () => {
   return (
     <div className="w-screen mt-10 ">
-      <form className="flex bg-stone-600 flex-col mx-auto text-3xl w-1/2 desktop:w-3/4 p-10 rounded">
+      <form className="flex bg-stone-600 flex-col mx-auto text-3xl w-1/2 desktop:w-3/4  laptop:w-3/4  tablet:w-screen mobile:w-screen p-10 rounded">
         <h1 className="text-center text-5xl text-orange-600">Contact</h1>
         <label className="flex flex-col mx-auto p-3 text-stone-200 text-2xl">
           Name:
