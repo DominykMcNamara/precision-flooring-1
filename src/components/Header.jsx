@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div className="bg-headerImage desktop:w-screen mobile:w-96 desktop:pt-36 desktop:pb-36">
+    <div className="bg-headerImage desktop:w-screen mobile:w-screen desktop:pt-36 desktop:pb-36 mobile:pb-36">
       <div className="flex desktop:flex-row text-stone-200 justify-end align-center desktop:text-3xl mobile:text-2xl">
         <a href="#contact" className="mr-20 opacity-75 hover:opacity-100 hover:text-orange-500">Contact</a>
         <a href="#services" className="mr-20 opacity-75 hover:opacity-100 hover:text-orange-500">Services</a>
