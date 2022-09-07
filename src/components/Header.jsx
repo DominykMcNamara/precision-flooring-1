@@ -13,7 +13,7 @@ export const Header = () => {
           Precision Flooring
         </h1>
         <h2 className="text-stone-200 desktop:text-3xl mobile:text-[1rem] mx-auto mt-10 leading-10 font-regular">
-          Since 1998 Precision Flooring has provided commercial flooring sales
+          Since 1992 Precision Flooring has provided commercial flooring sales
           and services to meet the desires of their customers with a customer
           satisfaction gurantee.
         </h2>
