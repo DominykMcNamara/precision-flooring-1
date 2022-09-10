@@ -13,8 +13,8 @@ export const Services = () => {
         <div className=" ml-3 desktop:ml-4 text-center text-stone-200">
           <h1 className="desktop:text-5xl mobile:text-2xl text-orange-600 mt-10">Services</h1>
           <h3 className=" mt-2 desktop:text-2xl mobile:text-[1rem] font-regular">
-            We provide high quality flooring in a vaiety of categories including
-            hardwood, carpet, vinyl, tile. laminate, and more in residential &
+            We provide high quality flooring in a variety of categories including
+            hardwood, carpet, vinyl, tile, laminate, and more in residential &
             commercial applications
           </h3>
         </div>
