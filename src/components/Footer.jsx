@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -24,6 +25,7 @@ export const Footer = () => {
             398 Dow Hwy Unit 44, Eliot, ME 03903
           </h3>{" "}
         </div>
+        <h3 className="ml-2 text-stone-200 opacity-75 cursor-pointer"><Link to="/login">Webmaster</Link></h3>
       </div>
     </div>
   );
