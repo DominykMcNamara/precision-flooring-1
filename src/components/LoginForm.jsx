@@ -11,7 +11,7 @@ export const LoginForm = () => {
       const { error } = await supabase.auth.signInWithOtp({
         email: "dominyksmith@gmail.com",
         options: {
-          emailRedirectTo: "https://www.mgprecisionflooring.com/webmaster"
+          emailRedirectTo: 'https://www.mgprecisionflooring.com/webmaster#access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNjYzNjI0NjM2LCJzdWIiOiI1N2QxOTI5My05MjEwLTQxNDItOWFjNy0xYmRjZWIwZWE5ZWQiLCJlbWFpbCI6ImRvbWlueWtzbWl0aEBnbWFpbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7fSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJzZXNzaW9uX2lkIjoiNTQ1OTUyZDUtYTRhMi00NWU3LWFhMGEtYjkzOGY4ZjJkNDk1In0.8PfwIVunEtCf7HMfZcPTjil-5D17PZWsJ2xNt8wrJfU&expires_in=3600&refresh_token=Rhp0jDYT9yzY3qhuHgIoRg&token_type=bearer&type=magiclink'
         }
       });
       if (error) throw error;
