@@ -1,14 +1,13 @@
-import React,  { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import React,  { useState, useRef } from "react";
+import emailjs from 'emailjs-com';
 
 export const ContactForm = () => {
-
-  const form = useRef();
+const form = useRef()
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_h5llqol', 'template_le5yk64', form.current, 'nCbx7gmwJ6ehKLHLq')
+    emailjs.sendForm('service_h5llqol', 'template_le5yk64', form.current, 'PoBplmUD_W5HJpuMx')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -17,7 +16,7 @@ export const ContactForm = () => {
   };
   return (
     <div className="w-screen mt-10 ">
-      <form ref={form} onSubmit={sendEmail} id="contact" className="flex bg-stone-600 flex-col mx-auto text-3xl  desktop:w-3/4  laptop:w-3/4  tablet:w-screen mobile:w-screen p-10 rounded">
+      <form  ref={form} onSubmit={sendEmail} id="contact" className="flex bg-stone-600 flex-col mx-auto text-3xl  desktop:w-3/4  laptop:w-3/4  tablet:w-screen mobile:w-screen p-10 rounded">
         <h1 className="text-center desktop:text-5xl mobile:text-2xl text-orange-600">
           Contact
         </h1>
