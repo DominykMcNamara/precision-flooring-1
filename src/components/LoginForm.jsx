@@ -10,9 +10,7 @@ export const LoginForm = () => {
       setLoading(true);
       const { error } = await supabase.auth.signInWithOtp({
         email: "dominyksmith@gmail.com",
-        options: {
-          emailRedirectTo: 'https://www.mgprecisionflooring.com/specials'
-        }
+        
       });
       if (error) throw error;
       alert("Check your email for the login link!");
