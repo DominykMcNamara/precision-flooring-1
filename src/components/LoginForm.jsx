@@ -11,7 +11,7 @@ export const LoginForm = () => {
       const { error } = await supabase.auth.signInWithOtp({
         email: "dominyksmith@gmail.com",
         options: {
-          emailRedirectTo: "http://www.mgprecisionflooring.com/webmaster"
+          emailRedirectTo: "https://www.mgprecisionflooring.com/webmaster"
         }
       });
       if (error) throw error;
