@@ -14,7 +14,7 @@ export const Home = () => {
       <section>
         <Services />
       </section>
-      <section>
+      <section >
         <CurrentSpecials />
       </section>
       <section>

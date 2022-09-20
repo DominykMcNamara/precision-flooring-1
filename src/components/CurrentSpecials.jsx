@@ -20,13 +20,14 @@ export const CurrentSpecials = ({ editMode }) => {
 
   const specialsItems = specials.map((special) => (
     <>
-    <l1 className="flex">
+    <l1 className="flex w-96 shadow-md">
       <SpecialCard
         name={special.item_name}
         details={special.description}
         price={special.price}
         id={special.id}
         editMode={editMode}
+        
       />
       
     </l1>
@@ -35,11 +36,11 @@ export const CurrentSpecials = ({ editMode }) => {
   ));
   
   return (
-    <div className="flex  flex-col mx-auto text-3xl  desktop:w-3/4  laptop:w-3/4  tablet:w-screen mobile:w-screen p-10 rounded mt-10">
+    <div className="flex flex-col mx-auto text-3xl  desktop:w-3/4  laptop:w-3/4  tablet:w-screen mobile:w-screen p-10 rounded mt-10">
       <h1 className="text-center desktop:text-5xl mobile:text-2xl text-orange-600">
         Current Specials
       </h1>
-      {specials ? <ul>{specialsItems}</ul> : "no specials"}
+      {specials ? <ul className="flex desktop:flex-row flex-wrap laptop:flex-row tablet:flex-col mobile:flex-col mx-auto">{specialsItems}</ul> : "no specials"}
     </div>
   );
 };

@@ -13,7 +13,7 @@ export const SpecialCard = ({ name, details, price, editMode, id }) => {
           <h1 className=" text-stone-200 font-regular">{name ? name : 'Name is unavailable'}</h1>
           <h2 className="text-red-600 font-bold">${price ? price : 'Price is unavailable'}</h2>
           <h3 className=" mt-2 desktop:text-2xl mobile:text-[1rem] font-regular">{details ? details : "Details are unavailable"}</h3>
-          {editMode ? <button onClick={handleDelete}className="bg-orange-500 mx-auto text-stone-300 desktop:w-96 mobile:w-96 mt-6 p-1 text-2xl mobile:text-xl rounded opacity-90 hover:opacity-100">Remove</button> : ''}
+          {editMode ? <button onClick={handleDelete}className="bg-orange-500 mx-auto text-stone-300 desktop:w-full mobile::w-full mt-6 p-1 text-2xl mobile:text-xl rounded opacity-90 hover:opacity-100">Remove</button> : ''}
         </div>
       </div>
     </>
