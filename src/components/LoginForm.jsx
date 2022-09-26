@@ -9,7 +9,7 @@ export const LoginForm = () => {
     try {
       setLoading(true);
       const { error } = await supabase.auth.signInWithOtp({
-        email: "precision.flooring@aol.com",
+        email: "dominyksmith@gmail.com",
         
       });
       if (error) throw error;
