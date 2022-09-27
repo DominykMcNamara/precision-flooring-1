@@ -9,6 +9,7 @@ const form = useRef()
 
     emailjs.sendForm('service_cg2apyu', 'template_le5yk64', form.current, 'PoBplmUD_W5HJpuMx')
       .then((result) => {
+          alert('email successfully sent.')
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
