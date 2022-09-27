@@ -11,7 +11,7 @@ export const Footer = () => {
         </div>
         <div className="flex flex-row align-center opacity-75 pointer-auto opacity-75 hover:opacity-100">
           <i className="fa-sharp fa-solid fa-envelope text-orange-600"></i>
-          <h3 className="ml-2 text-stone-200">precision.flooring@aol.com</h3>
+          <h3 className="ml-2 text-stone-200">mg.precision.flooring@gmail.com</h3>
         </div>
         <div className="flex flex-row align-center opacity-75 pointer-auto opacity-75 hover:opacity-100">
           <i className="fa-sharp fa-solid fa-clock text-orange-600"></i>
