@@ -26,6 +26,7 @@ export const Footer = () => {
           </h3>{" "}
         </div>
         <h3 className="ml-2 text-stone-200 opacity-75 cursor-pointer"><Link to="/webmaster">Webmaster</Link></h3>
+        <h3>&copy; 2023 All Rights Reserved</h3>
       </div>
     </div>
   );
